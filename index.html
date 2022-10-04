@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cal's Site</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+
+    <nav class="header">
+      <div class="container-fluid">
+        <button class="show-modal">Click for Surprise</button>
+        <ul>
+          <li>
+            <a class="home" href="#top"
+              ><img
+                src="https://www.freepngimg.com/download/logo/69682-product-mamp-brand-design-logo-font-thumb.png"
+                width="100px"
+                height="100px"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="#projectOne"
+              class="projectOne"
+              style="font-size: 15px; color: #087c04"
+              >Project 1</a
+            >
+          </li>
+          <li>
+            <a
+              href="#personas"
+              class="personas"
+              style="font-size: 15px; color: #087c04"
+              >Personas</a
+            >
+          </li>
+          <li>
+            <a
+              href="#storyboard"
+              class="project-3"
+              style="font-size: 15px; color: #087c04"
+              >Story board</a
+            >
+          </li>
+          <!-- you should make this open a modal with a form. Use one of the vids from Udemy course -->
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Modal -->
+
+    <div class="modal hidden">
+      <!--this window is hidden because in the css .hidden is set to display none-->
+      <button class="close-modal">&times;</button>
+      <h1>Sign up for blueno updates</h1>
+      <form>
+        <label>
+          <input
+            class="waitlistInputField"
+            type="text"
+            name="email"
+            placeholder="email"
+          />
+        </label>
+
+        <button class="signUp">Sign Up</button>
+      </form>
+      <img src="bluenoSticker.png" width="25%" height="25%" />
+    </div>
+    <div class="overlay hidden"></div>
+
+    <!-- /////////////// -->
+
+    <!-- src="https://i.ibb.co/9WXVjKm/apppaul-cropped.jpg"
+    alt="shoe" -->
+
+    <!-- Banner Section -->
+    <!-- Banner Section -->
+    <div class="banner">
+      <h1>Here's my UI/UX Portfolio!</h1>
+      <p>Welcome. I hope you enjoy!</p>
+      <div class="allSlides">
+        <!-- <img
+          class="mySlides"
+          src="https://i.ibb.co/yX1XSDV/daniel-korpai-a-Umq85-2-V7-I-unsplash-1.jpg"
+          alt="shoe"
+        />
+        <img
+          class="mySlides"
+          src="https://i.ibb.co/9WXVjKm/apppaul-cropped.jpg"
+          alt="phone"
+        /> -->
+      </div>
+    </div>
+    <!-- src="https://i.ibb.co/yX1XSDV/daniel-korpai-a-Umq85-2-V7-I-unsplash-1.jpg" -->
+    <!-- src="https://i.ibb.co/9WXVjKm/apppaul-cropped.jpg" -->
+
+    <!-- Project 1 -->
+    <div id="projectOne" style="scroll-margin-top: 7rem">
+      <div class="lower">
+        <h2 style="font-size: 35px">Project 1</h2>
+        <center>
+          Below, you will find the Preparation, Personas, and Storyboard
+        </center>
+        <!-- <p>Some More Text</p> -->
+      </div>
+
+      <!-- Font Card - Serif -->
+      <!-- <div class="font-card serif">
+        <h2>Title</h2>
+        <h5 class="creator">Text</h5>
+      </div> -->
+    </div>
+
+    <!-- Project 2-->
+    <div id="personas" style="scroll-margin-top: 7rem">
+      <h2 style="font-size: 35px">Personas</h2>
+      <div>
+        <table class="centeredTable">
+          <tr>
+            <th style="font-size: 25px; background-color: rgb(230, 230, 230)">
+              Person 1
+            </th>
+            <th style="font-size: 25px">Person 2</th>
+            <th style="font-size: 25px; background-color: rgb(230, 230, 230)">
+              Person 3
+            </th>
+          </tr>
+          <!-- Question 1-->
+          <tr>
+            <td
+              style="
+                color: rgb(63, 29, 90);
+                background-color: rgb(230, 230, 230);
+              "
+            >
+              Under what circumstances do you use the CVS self-checkout station?
+            </td>
+            <td style="color: rgb(63, 29, 90)">
+              Under what circumstances do you use the CVS self-checkout station?
+            </td>
+            <td
+              style="
+                color: rgb(63, 29, 90);
+                background-color: rgb(230, 230, 230);
+              "
+            >
+              Under what circumstances do you use the CVS self-checkout station?
+            </td>
+          </tr>
+          <!-- Answer 1-->
+          <tr>
+            <td style="background-color: rgb(230, 230, 230)">
+              I use the self-checkout station every time.
+            </td>
+            <td>Only when there is a long line for the cashier.</td>
+            <td style="background-color: rgb(230, 230, 230)">
+              I never use the self-checkout station.
+            </td>
+          </tr>
+          <!-- Question 2-->
+          <tr>
+            <td
+              style="
+                color: rgb(63, 29, 90);
+                background-color: rgb(230, 230, 230);
+              "
+            >
+              What are the advantages of using the self-checkout system?
+            </td>
+            <td style="color: rgb(63, 29, 90)">
+              What are the advantages of using the self-checkout system?
+            </td>
+            <td
+              style="
+                color: rgb(63, 29, 90);
+                background-color: rgb(230, 230, 230);
+              "
+            >
+              What are the advantages of using the self-checkout system?
+            </td>
+          </tr>
+          <!-- Answer 2-->
+          <tr>
+            <td style="background-color: rgb(230, 230, 230)">
+              I’m shy, so I don’t have to talk to anyone. I keep my headphones
+              on and leave. It’s simple.
+            </td>
+            <td>Saving time when there’s a long time.</td>
+            <td style="background-color: rgb(230, 230, 230)">
+              It would be easy if I knew English.
+            </td>
+          </tr>
+          <!-- Question 3-->
+          <tr>
+            <td
+              style="
+                color: rgb(63, 29, 90);
+                background-color: rgb(230, 230, 230);
+              "
+            >
+              What are the disadvantages of using the self-checkout system?
+            </td>
+            <td style="color: rgb(63, 29, 90)">
+              What are the disadvantages of using the self-checkout system?
+            </td>
+            <td
+              style="
+                color: rgb(63, 29, 90);
+                background-color: rgb(230, 230, 230);
+              "
+            >
+              What are the disadvantages of using the self-checkout system?
+            </td>
+          </tr>
+          <!-- Answer 3-->
+          <tr>
+            <td style="background-color: rgb(230, 230, 230)">
+              The only disadvantage is sometimes there are technical
+              difficulties. A few times, the system has frozen.
+            </td>
+            <td>I love chatting with the cashiers. Also, it’s really dirty.</td>
+            <td style="background-color: rgb(230, 230, 230)">
+              I cannot use it because my first language is Italian and I don’t
+              understand English. I use the cashier every time.
+            </td>
+          </tr>
+          <!-- Question 4-->
+          <tr>
+            <td
+              style="
+                color: rgb(63, 29, 90);
+                background-color: rgb(230, 230, 230);
+              "
+            >
+              In what ways is the self-checkout system easy to use?
+            </td>
+            <td style="color: rgb(63, 29, 90)">
+              In what ways is the self-checkout system easy to use?
+            </td>
+            <td
+              style="
+                color: rgb(63, 29, 90);
+                background-color: rgb(230, 230, 230);
+              "
+            >
+              In what ways is the self-checkout system easy to use?
+            </td>
+          </tr>
+          <!-- Answer 4-->
+          <tr>
+            <td style="background-color: rgb(230, 230, 230)">
+              I’m guided step by step on what to do. I’ve never been confused.
+              The prompts are clear.
+            </td>
+            <td>Its prompts make sense, I guess.</td>
+            <td style="background-color: rgb(230, 230, 230)">
+              It seems quick if there was a long line.
+            </td>
+          </tr>
+          <!-- Question 5-->
+          <tr>
+            <td
+              style="
+                color: rgb(63, 29, 90);
+                background-color: rgb(230, 230, 230);
+              "
+            >
+              In what ways is the self-checkout system hard to use?
+            </td>
+            <td style="color: rgb(63, 29, 90)">
+              In what ways is the self-checkout system hard to use?
+            </td>
+            <td
+              style="
+                color: rgb(63, 29, 90);
+                background-color: rgb(230, 230, 230);
+              "
+            >
+              In what ways is the self-checkout system hard to use?
+            </td>
+          </tr>
+          <!-- Answer 5-->
+          <tr>
+            <td style="background-color: rgb(230, 230, 230)">
+              The systems asks if I want to “round up” to donate to a charity,
+              and sometimes it doesn’t list the charity itself.
+            </td>
+            <td>
+              It’s pretty technically confusing. It frequently screams at me to
+              place my item in the bagging area, and it keeps beeping if I don’t
+              do what it asks.
+            </td>
+            <td style="background-color: rgb(230, 230, 230)">
+              I don’t understand what its asking me, so I can’t use it.
+            </td>
+          </tr>
+          <!-- Question 6-->
+          <tr>
+            <td
+              style="
+                color: rgb(63, 29, 90);
+                background-color: rgb(230, 230, 230);
+              "
+            >
+              How would a first time user fare with the self-checkout system?
+            </td>
+            <td style="color: rgb(63, 29, 90)">
+              How would a first time user fare with the self-checkout system?
+            </td>
+            <td
+              style="
+                color: rgb(63, 29, 90);
+                background-color: rgb(230, 230, 230);
+              "
+            >
+              How would a first time user fare with the self-checkout system?
+            </td>
+          </tr>
+          <!-- Answer 6-->
+          <tr>
+            <td style="background-color: rgb(230, 230, 230)">
+              A first time user would far just fine
+            </td>
+            <td>
+              I think they would be OK, but they might be overwhelmed if there
+              is a line behind them and they can’t figure out what to do. It’s
+              pretty stressful.
+            </td>
+            <td style="background-color: rgb(230, 230, 230)">
+              I believe a first time user would be fine, so long as they
+              understand English and understand technology. I’m also old, so its
+              hard for me to know what to do
+            </td>
+          </tr>
+        </table>
+      </div>
+      <!-- <div>
+        <img src="Chill Christina.jpg" width="20%" height="20%" />
+        <img src="Shy Sid.jpg" width="20%" height="20%" />
+      </div>
+      <div class="personasDescription">
+        <p>Description</p>
+        <p>Description</p>
+      </div> -->
+      <div style="padding-top: 3rem">
+        <table>
+          <tr>
+            <th style="text-align: right; padding-right: 45px">
+              <img src="Shy Sid.jpg" width="72%" height="51%" />
+            </th>
+            <th style="text-align: left; padding-left: 45px">
+              <img src="Chill Christina.jpg" width="72%" height="51%" />
+            </th>
+          </tr>
+          <tr>
+            <!-- <td>Description</td> -->
+            <!-- <td>Description</td> -->
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- Project 3-->
+    <div id="storyboard" style="scroll-margin-top: 7rem">
+      <div class="lower">
+        <h2 style="font-size: 35px">Storyboard</h2>
+        <img src="Storyboard1.png" width="80%" height="80%" />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <div class="footer">
+      <p>Yay UI/UX</p>
+    </div>
+  </body>
+</html>
